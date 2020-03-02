@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="en">
+    <title>fletxa</title>
+    <style type="text/css">
+        :root{
+            --fons: black;
+            --figura: orange;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .f1, .f2, .f3, .f4, .f5, .f6, .f7{
+            width: 100%;
+            display: flex;
+        }
+        .f1{
+            cursor: alias;
+        }
+        .f2{
+            cursor: all-scroll;
+        }
+        .f3{
+            cursor: cell;
+        }
+        .f4{
+            cursor: col-resize;
+        }
+        div>p{
+            flex-grow: 1;
+            /*width: 50px;*/
+            height: 100px;
+            background: var(--fons);
+            /*margin: 0.1em;*/
+        }
+        div>p:hover{
+            background: var(--figura);
+            /*box-shadow: 2px 4px grey;*/
+        }
+        .f2 p:nth-child(4){
+            background: var(--figura);
+        }
+        .f3 p:nth-child(3),.f3 p:nth-child(4),.f3 p:nth-child(5){
+            background: var(--figura);
+        }
+        .f4 p:nth-child(2),.f4 p:nth-child(3),.f4 p:nth-child(4),.f4 p:nth-child(5),.f4 p:nth-child(6){
+            background: var(--figura);
+        }
+        .f5 p:nth-child(4){
+            background: var(--figura);
+        }
+        .f6 p:nth-child(4){
+            background: var(--figura);
+        }
+        .f7 p:nth-child(4){
+            background: var(--figura);
+        }
+    </style>
+    </head>
+    <body>
+        
+        <main class="container1">
+        <div class="f1">
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+        </div>
+            <div class="f2">
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+        </div>
+            <div class="f3">
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+        </div>
+            <div class="f4">
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+        </div>
+            <div class="f5">
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+        </div>
+            <div class="f6">
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+        </div><div class="f7">
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+        </div>
+       </main>
+    
+    </body>
+</html>
